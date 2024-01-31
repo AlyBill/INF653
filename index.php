@@ -1,8 +1,8 @@
 <?php
 //user will enter firstName and lastName in the URL
-$firstName = filter_input(INPUT_GET, 'FirstName');
-$lastName = filter_input(INPUT_GET, 'LastName');
-$age = filter_input(INPUT_GET, 'Age');
+$firstName = filter_input(INPUT_GET, 'firstname');
+$lastName = filter_input(INPUT_GET, 'lastname');
+$age = filter_input(INPUT_GET, 'age');
 
 echo "Hello My Name Is  $firstName $lastName .";
 echo "<br/>";
